@@ -101,7 +101,7 @@ while True:
 	            s+=data
 	        else:
 	            #print s
-	            KetNoiServer('http://52.69.6.249/index.php?cmd=laytrangthaiarduino&id=5&nhietdo='+s)
+	            KetNoiServer('http://smarthometl.com/index.php?cmd=laytrangthaipi&id=5&nhietdo='+s)
 	            s=""
 	except KeyboardInterrupt:
 		GPIO.cleanup()
